@@ -1,4 +1,4 @@
-## v0.1.1
+## v0.1.2
 - Fixed package structure so `shutup` command actually works
 
 ## v0.1.0
