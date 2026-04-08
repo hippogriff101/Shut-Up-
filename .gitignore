@@ -1,2 +1,3 @@
 dist/
 shutup_overlay.egg-info/
+shutup\__pycache__
