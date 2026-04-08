@@ -1,5 +1,5 @@
+import random
 import tkinter as tk
-from tkinter import simpledialog
 import keyboard
 
 root = tk.Tk()
@@ -35,10 +35,8 @@ def shh_warn():
     root.after(0, set_message, "Shh! Quiet time!", "yellow") 
 
 def custom_message():
-    message = simpledialog.askstring("Message", "Enter message:", parent=root)
-    color = simpledialog.askstring("Color", "Enter color:", parent=root)
-    if message and color:
-        root.after(0, set_message, message, color)
+    message = input("Enter your custom message: ")
+    root.after(0, set_message, message, random.choice(["red", "green", "yellow", "blue", "purple"]))
 
 def hide_warning():
     root.after(0, set_message, "", "green")
