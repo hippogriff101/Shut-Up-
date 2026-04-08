@@ -1,5 +1,5 @@
 import tkinter as tk
-import tkinter.font as tkfont
+from tkinter import simpledialog
 import keyboard
 
 root = tk.Tk()
@@ -35,9 +35,10 @@ def shh_warn():
     root.after(0, set_message, "Shh! Quiet time!", "yellow") 
 
 def custom_message():
-    message = input("Enter your custom message: ")
-    color = input("Enter the color for the message: ")
-    root.after(0, set_message, message, color)
+    message = simpledialog.askstring("Message", "Enter message:", parent=root)
+    color = simpledialog.askstring("Color", "Enter color:", parent=root)
+    if message and color:
+        root.after(0, set_message, message, color)
 
 def hide_warning():
     root.after(0, set_message, "", "green")
