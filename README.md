@@ -3,7 +3,9 @@ A SUPER simple python project that uses tkinter to add a ‘shut up’ message o
 
 ### How to use
 
-Run `load.py`
+Run `pip install shutup-overlay`
+
+
 
 Keybinds:
 
