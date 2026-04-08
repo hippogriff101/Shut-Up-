@@ -7,16 +7,16 @@ Run `load.py`
 
 Keybinds:
 
----
-F3 | kill
-F4 | custom message
-F5 | lock display
-F6 | move display
-F7 | 'SHH' warning
-F8 | good job
-F9 | main warning
-F10 | hide warning
----
+| Key | Action |
+| --- | --- |
+| F3 | kill |
+| F4 | custom message |
+| F5 | lock display |
+| F6 | move display |
+| F7 | 'SHH' warning |
+| F8 | good job |
+| F9 | main warning |
+| F10 | hide warning |
 
 To show the moveable box press `F6` and to lock it in place press `F5` then you can use the keys to show differant warnings.
 
