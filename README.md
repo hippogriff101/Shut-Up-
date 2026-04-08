@@ -1,13 +1,18 @@
 # Shut-Up
 A SUPER simple python project that uses tkinter to add a ‘shut up’ message on screen when you press certain F keys!
 
+- [Flavortown Project Link](https://flavortown.hackclub.com/projects/17613)
+- [PyPi Project](https://pypi.org/project/shutup-overlay)
+  
 ### How to use
 
-Run `pip install shutup-overlay`
+Install with pip:
+```pip install shutup-overlay```
 
+Then run it by typing:
+```shutup```
 
-
-Keybinds:
+#### Keybinds:
 
 | Key | Action |
 | --- | --- |
@@ -20,7 +25,8 @@ Keybinds:
 | F9 | main warning |
 | F10 | hide warning |
 
-To show the moveable box press `F6` and to lock it in place press `F5` then you can use the keys to show differant warnings.
+> [!TIP]
+> To show the moveable box press `F6` and to lock it in place press `F5` then you can use the keys to show differant warnings.
 
 ### Screenshots
 
